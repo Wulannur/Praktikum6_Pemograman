@@ -1,0 +1,9 @@
+D:\P6_3_1204007\P6_3_1204007\bin\Debug\P6_3_1204007.exe.config
+D:\P6_3_1204007\P6_3_1204007\obj\Debug\P6_3_1204007.csprojResolveAssemblyReference.cache
+D:\P6_3_1204007\P6_3_1204007\obj\Debug\P6_3_1204007.Form1.resources
+D:\P6_3_1204007\P6_3_1204007\obj\Debug\P6_3_1204007.Properties.Resources.resources
+D:\P6_3_1204007\P6_3_1204007\obj\Debug\P6_3_1204007.csproj.GenerateResource.Cache
+D:\P6_3_1204007\P6_3_1204007\bin\Debug\P6_3_1204007.exe
+D:\P6_3_1204007\P6_3_1204007\bin\Debug\P6_3_1204007.pdb
+D:\P6_3_1204007\P6_3_1204007\obj\Debug\P6_3_1204007.exe
+D:\P6_3_1204007\P6_3_1204007\obj\Debug\P6_3_1204007.pdb
