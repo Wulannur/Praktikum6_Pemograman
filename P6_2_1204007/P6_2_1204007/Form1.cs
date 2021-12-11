@@ -26,9 +26,9 @@ namespace P6_2_1204007
 
             try
             {
-                //string myConnectionString = "integrated security=true;data source=.;initial catalog=DESKTOP-NAWAF\\P6_1204036";
+                //string myConnectionString = "integrated security=true;data source=.;initial catalog=DESKTOP-ASUS\\P6_1204007";
 
-                SqlConnection myConnection = new SqlConnection(@"Data Source=DESKTOP-NAWAF\P6_1204036; Initial Catalog=P6_1204036;Integrated Security=True");
+                SqlConnection myConnection = new SqlConnection(@"Data Source=DESKTOP-ASUS\P6_1204007; Initial Catalog=P6_1204007;Integrated Security=True");
 
                 SqlCommand myCommand = new SqlCommand();
 
