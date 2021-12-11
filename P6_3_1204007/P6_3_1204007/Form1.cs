@@ -20,8 +20,8 @@ namespace P6_3_1204007
             rbLk.Checked = false;
             rbPr.Checked = false;
 
-            //string myConnectionString = "integrated security=true;data source=.;initial catalog=DESKTOP-NAWAF\\P6_1204036";
-            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-NAWAF\P6_1204036;Initial Catalog=P6_1204036;Integrated Security=True");
+            //string myConnectionString = "integrated security=true;data source=.;initial catalog=DESKTOP-ASUS\\P6_1204007";
+            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-ASUS\P6_1204007;Initial Catalog=P6_1204007;Integrated Security=True");
 
             conn.Open();
 
@@ -97,12 +97,12 @@ namespace P6_3_1204007
                                         string nohp = tbTelepon.Text;
                                         string prodi = this.prodi;
 
-                                        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-NAWAF\P6_1204036;Initial Catalog=P6_1204036;Integrated Security=True");
+                                        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-ASUS\P6_1204007;Initial Catalog=P6_1204007;Integrated Security=True");
 
                                         string sql = "insert into msmhs ([nim], [nama], [tgl_lahir], [jenis_kelamin], [alamat], " +
                                             "[telepon], [id_prodi]) values(@nim,@nama,@tanggal,@kelamin,@alamat,@nohp,@idprodi)";
 
-                                        using (SqlConnection cnn = new SqlConnection(@"Data Source=DESKTOP-NAWAF\P6_1204036;Initial Catalog=P6_1204036;Integrated Security=True"))
+                                        using (SqlConnection cnn = new SqlConnection(@"Data Source=DESKTOP-ASUS\P6_1204007;Initial Catalog=P6_1204007;Integrated Security=True"))
                                         {
                                             try
                                             {
